@@ -1,0 +1,18 @@
+{
+  "GLOBAL_SETTING": {
+    "GLOBAL_BATTLE_DIALOGUE": "* lol"
+  },
+  "Boss": {
+    "Papyrus": {
+      "x": 320,
+      "y": 110
+    }
+  },
+  "Player": {
+    "Item": [
+      "Hamburger",
+      "Pie",
+      "Candy"
+    ]
+  }
+}
