@@ -1,0 +1,12 @@
+return function (self)
+  love.graphics.setColor(1, 1, 1, 1-self.Alpha)
+  love.graphics.push()
+  love.graphics.translate(self.x, self.y)
+  love.graphics.rotate(love.timer.getTime())
+  love.graphics.draw(self.Image, -self.Width/2, -self.Height/2)
+  love.graphics.pop()
+  love.graphics.setColor(.3, .3, .3, self.Alpha)
+  love.graphics.draw(self.Image, self.x-self.Width/2, self.y-self.Height/2)
+  love.graphics.setColor(1, 1, 1, 1)
+  self.Circle:draw()
+end

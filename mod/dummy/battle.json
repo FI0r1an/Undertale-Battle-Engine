@@ -1,0 +1,11 @@
+{
+  "GLOBAL_SETTING": {
+    "GLOBAL_BATTLE_DIALOGUE": "* Dummy!"
+  },
+  "Boss": {
+    "Dummy": {
+      "x": 320,
+      "y": 150
+    }
+  }
+}
