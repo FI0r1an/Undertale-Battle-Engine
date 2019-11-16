@@ -6,7 +6,8 @@ local blt = require("src/object"):New({
     Height,
     Scale
   })
-
+--that's all...
+--maybe
 function blt:New(spr, x, y, s)
   local a = setmetatable({}, self)
   self.__index = self
